@@ -47,4 +47,6 @@ passEmail: senha de aplicativo<br>
 <br>
 -Função send_email: responsável por enviar o email formatado a cada 60 segundos<br>
 (A função on_press tem o mesmo objetivo que a do arquivo keylogger.pyw)<br>
-
+<br>
+- Formas de se prevenir contra esses tipos de ataques:<br>
+Uso de antívirus modernos, firewalls bem configurados, SIEM (monitorar comportamento de aplicativos e buscar por vulnerabilidades), políticas de segurança e instruções aos usuários.
