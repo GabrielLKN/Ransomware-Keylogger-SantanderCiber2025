@@ -7,25 +7,19 @@ O desafio consiste em criar dois malwares, sendo eles um ransomware e um spyware
 - Bibliotecas usadas:<br>
 Fernet: garante criptografia simétrica (usa uma única chave para criptografar/descriptografar dados)<br>
 OS: tem a função de navegar pelas pastas do sistema operacional<br>
-<br>
 - Funções:<br>
 Gen_key:<br>
 Gera uma chave para criptografar os dados e salva ela no arquivo "crypto.key"<br>
-<br>
 Load_key:<br>
 Carrega a chave de criptografia<br>
-<br>
 Encrypt_file:<br>
 Abre o arquivo escolhido, faz a leitura dos dados, criptografa eles usando a chave e sobrescreve o arquivo com os dados criptografados<br>
-<br>
 Search_files:<br>
 Encontra os arquivos para criptografar mas sem que o script e a chave seja criptografada<br>
-<br>
 Rescue_msg:<br>
 Cria uma mensagem de resgaste para a vítima 
-<br>
 Main:<br>
-Função principal, tem o objetivo de executar tudo na sequência correta e por fim gera uma mensagem no terminal para confirmar que o script funcionou corretamente
+Função principal, tem o objetivo de executar tudo na sequência correta e por fim gera uma mensagem no terminal para confirmar que o script funcionou corretamente<br>
 <br>
 - Keylogger.pyw:<br>
 <br>
@@ -53,3 +47,4 @@ passEmail: senha de aplicativo<br>
 <br>
 -Função send_email: responsável por enviar o email formatado a cada 60 segundos<br>
 (A função on_press tem o mesmo objetivo que a do arquivo keylogger.pyw)<br>
+
